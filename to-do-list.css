@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+:root{
+    --color:white;
+    --color1:rgb(155, 84, 155);
+}
+.bg
+{
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    background: url(mountains.jpg);
+    background-size: cover;
+    background-position: 0vw;
+    z-index:-1;
+}
+.outer
+{
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-size: 7vw;
+    color: var(--color);
+}
+.text
+{
+    border: 0.2vw solid var(--color1);
+    border-radius: 1vw;
+    width: 40vw;
+    height: 25vh;
+    padding: 1vh 1vw 1vh 1vw;
+}
+.btn
+{
+    color: var(--color);
+    border: none;
+    border-radius: 1vw;
+    background-color: var(--color1);
+    left:66vw;
+    font-size: 3vw;
+    font-weight: 700;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+    position: absolute;
+    bottom:2vh;
+    z-index: 1;
+    cursor: pointer;
+}
+.textbox
+{
+    position: relative;
+}
+.show
+{
+    align-items: center;
+    text-align: center;
+}
+.editbtn
+{
+font-size: 2vw;
+border: none;
+background-color: var(--color);
+color: var(--color1);
+margin: 1vh 4vw 1vh 1vw;
+}
+.deletebtn
+{
+font-size: 2vw;
+font-weight: 700;
+border: none;
+background-color: var(--color);
+color: var(--color1);
+margin: 1vh 1vw 1vh 4vw;
+}
+.editarea
+{
+   font-size: 2vw;
+}
+.item
+{
+display: flex;
+justify-content: space-between;
+border-radius: 1vw;
+margin: 1vh 30vw 1vh 30vw;
+border: 2px solid var(--color1);
+
+}
+.spantext{
+   font-size: 3vw;
+}
